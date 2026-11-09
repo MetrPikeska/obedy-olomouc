@@ -1,0 +1,1520 @@
+[
+ {
+  "menicka_id": 7863,
+  "name": "Burger & Beer Brothers Pod Limpou",
+  "url": "https://www.menicka.cz/7863-burger-beer-brothers-pod-limpou.html",
+  "soups": [
+   "Drůbeží vývar s masem, zeleninou a nudlemi",
+   "Krém z pečeného česneku se slaninou"
+  ],
+  "mains": [
+   {
+    "name": "Plněné bramborové knedlíky se zelím, smažená cibulka",
+    "price": 189
+   },
+   {
+    "name": "KUŘE SALTIMBOCCA šalvěj, sušená šunka, grenaile",
+    "price": 199
+   },
+   {
+    "name": "ŠVÉDSKÉ MASOVÉ KULIČKY brusinková omáčka, bramborová kaše",
+    "price": 189
+   },
+   {
+    "name": "BUFFALO CHICKEN BOWL kuřecí maso, jasmínová rýže, cheddar, jarní cibulka",
+    "price": 189
+   },
+   {
+    "name": "SMAŽENÉ ŽAMPIONYnaše hranolky, a tatarka",
+    "price": 179
+   },
+   {
+    "name": "Rancher burger malý + hranolky Hovězí burger, slanina, restované fazolky, kukuřice, vejce, sekaný salát BBQ",
+    "price": 189
+   },
+   {
+    "name": "Rancher burger velký + hranolky Hovězí burger, slanina, restované fazolky, kukuřice, vejce, sekaný salát BBQ",
+    "price": 249
+   }
+  ],
+  "lat": 49.5923542,
+  "lon": 17.2519643
+ },
+ {
+  "menicka_id": 8191,
+  "name": "Restaurace Globus Olomouc",
+  "url": "https://www.menicka.cz/8191-restaurace-globus-olomouc.html",
+  "soups": [
+   "Gulášová",
+   "Francouzská",
+   "Zeleninová"
+  ],
+  "mains": [
+   {
+    "name": "Svíčková na smetaně s hovězím masem, karlovarské knedlíky",
+    "price": 159
+   },
+   {
+    "name": "Vepřový vrabec se zelím, bramborové knedlíky",
+    "price": 129
+   },
+   {
+    "name": "Vepřový guláš ďábelský, houskové knedlíky",
+    "price": 129
+   },
+   {
+    "name": "Vepřové výpečky z bůčku se špenátem, bramborové knedlíky",
+    "price": 119
+   },
+   {
+    "name": "Hovězí kostky na houbách, vařené těstoviny",
+    "price": 149
+   },
+   {
+    "name": "Kuřecí prsa s mozzarellou a rajčaty, smažené hranolky",
+    "price": 139
+   },
+   {
+    "name": "Kuřecí rizoto se sýrem a okurkou",
+    "price": 109
+   },
+   {
+    "name": "Rybí filé s rajčatovo česnekovou omáčkou, vařené brambory",
+    "price": 119
+   }
+  ],
+  "lat": 49.6015326,
+  "lon": 17.2230731
+ },
+ {
+  "menicka_id": 10267,
+  "name": "La Padella Olomouc",
+  "url": "https://www.menicka.cz/10267-la-padella-olomouc.html",
+  "soups": [],
+  "mains": [
+   {
+    "name": "Trippa alla Fiorentina (hovězí držky dušené s kořenovou zeleninou, fazolemi, rajčatovou salsou a čerstvou petrželkou, opečené crostini)",
+    "price": 219
+   },
+   {
+    "name": "Tagliatelle al ragú bianco (čerstvé tagliatelle s ragú z hovězího masa s kořenovou zeleninou na bílém víně, parmazán)",
+    "price": 229
+   },
+   {
+    "name": "Pasta e piselli con calamari (krátké čerstvé těstoviny s hráškem a grilovanými kalamáry)",
+    "price": 249
+   },
+   {
+    "name": "Filetto di orata con patate, olive e capperi (filé z pražmy královské pečené s brambory, olivami a kapary)",
+    "price": 239
+   },
+   {
+    "name": "Casareccie alla putanesca (krátké čerstvé těstoviny s rajčaty, olivami a kapary, parmazán)",
+    "price": 209
+   },
+   {
+    "name": "Risotto al vino rosé con pere e spuma di formaggio (krémové rizoto připravované na růžovém víně, s glazovanými hruškami a parmazánovou pěnou)",
+    "price": 219
+   },
+   {
+    "name": "Pizza broccoli e salsiccia (rajčatová omáčka, brokolice, italská salsiccia, mozzarella)",
+    "price": 249
+   },
+   {
+    "name": "Pizza calzone napoletana (pizza plněná rajčatovou omáčkou, ricottou, salámem Napoli a mozzarellou)",
+    "price": 259
+   },
+   {
+    "name": "Pizza zucca (dýňová salsa, mozzarella, burrata)",
+    "price": 259
+   }
+  ],
+  "lat": 49.5964889,
+  "lon": 17.2608641
+ },
+ {
+  "menicka_id": 7070,
+  "name": "Restaurace Queen",
+  "url": "https://www.menicka.cz/7070-restaurace-queen.html",
+  "soups": [
+   "Krupicová s vejcem"
+  ],
+  "mains": [
+   {
+    "name": "Smažené tvarůžky, vařené brambory, tatarská omáčka, zelenina",
+    "price": 149
+   },
+   {
+    "name": "Vepřové nudličky po cikánsku, dušená rýže, zelenina",
+    "price": 155
+   },
+   {
+    "name": "Zeleninový salát s grilovaným kuřecím plátkem, dresink, opečený toast",
+    "price": 155
+   },
+   {
+    "name": "Pečené husí stehno, červené a bílé zelí, variace knedlíků",
+    "price": 449
+   }
+  ],
+  "lat": 49.5805526,
+  "lon": 17.2345349
+ },
+ {
+  "menicka_id": 6139,
+  "name": "Hospůdka Leguán",
+  "url": "https://www.menicka.cz/6139-hospudka-leguan.html",
+  "soups": [
+   "Česneková s vejcem",
+   "Dršťková",
+   "Hovězí vývar s knedlíčky a nudlemi",
+   "Loštická stavinožka (vývar, uzenina, vejce, česnek, tvarůžek)",
+   "Hanácká česnečka Speciál (vývar, uzenina, vejce, česnek, sýr)"
+  ],
+  "mains": [
+   {
+    "name": "Hovězí svíčková na smetaně, brusinkový terč, houskový knedlík",
+    "price": 180
+   },
+   {
+    "name": "Zeleninový salát s kuřecím masem a sýrem, česnekový dip, pečivo",
+    "price": 170
+   },
+   {
+    "name": "Pečené kuřecí stehno na slanině, bramborová kaše",
+    "price": 160
+   },
+   {
+    "name": "Vepřové ledvinky na cibulce a slanině, dušená rýže",
+    "price": 160
+   },
+   {
+    "name": "Vepřové výpečky, dušená kapusta, chléb",
+    "price": 160
+   },
+   {
+    "name": "Kuřecí nudličky na houbách, dušená rýže",
+    "price": 160
+   },
+   {
+    "name": "Hovězí guláš na Šeráku, cibule, feferonka, houskový knedlík",
+    "price": 180
+   },
+   {
+    "name": "Boloňské špagety, hoblinky parmazánu",
+    "price": 160
+   },
+   {
+    "name": "Steak z krkovičky sous-vide, fazolové lusky se slaninou, pečené zámecké brambory",
+    "price": 210
+   },
+   {
+    "name": "Vepřový steak se šunkou a sázeným vejcem, opékané brambory",
+    "price": 195
+   },
+   {
+    "name": "Smažený sýr, smažené hranolky, tatarská omáčka",
+    "price": 195
+   },
+   {
+    "name": "Kuřecí steak Caprese (rajče, mozzarella, bazalkové pesto), opékané brambory",
+    "price": 195
+   }
+  ],
+  "lat": 49.594635,
+  "lon": 17.2390861
+ },
+ {
+  "menicka_id": 8776,
+  "name": "Restaurace SOKOLKA",
+  "url": "https://www.menicka.cz/8776-restaurace-sokolka.html",
+  "soups": [
+   "Hovězí vývar s masem, zeleninou a nudlemi"
+  ],
+  "mains": [
+   {
+    "name": "Steak z vepřové kotlety Duroc, houbová omáčka, pečené brambory (150g)",
+    "price": 175
+   },
+   {
+    "name": "Pečené koleno, bystročické zelí, houskový knedlík (150g)",
+    "price": 165
+   },
+   {
+    "name": "Kuřecí kari s arašídy a kokosovým mlékem, jasmínová rýže (150g)",
+    "price": 160
+   },
+   {
+    "name": "Smažený sýr, domácí hranolky, kečup (150g)",
+    "price": 160
+   },
+   {
+    "name": "Vepřová játra na grilu se slaninou a vídeňskou cibulkou, grenaile (150g)",
+    "price": 170
+   },
+   {
+    "name": "Okurkový salát (100g)",
+    "price": 35
+   },
+   {
+    "name": "Rajčatový salát (100g)",
+    "price": 35
+   },
+   {
+    "name": "Coleslaw (100g)",
+    "price": 40
+   }
+  ],
+  "lat": 49.5828163,
+  "lon": 17.2563965
+ },
+ {
+  "menicka_id": 5472,
+  "name": "U Zlaté koule",
+  "url": "https://www.menicka.cz/5472-u-zlate-koule.html",
+  "soups": [
+   "Česneková s vejcem",
+   "Dršťková",
+   "Hovězí vývar s knedlíčky a nudlemi",
+   "Loštická stavinožka (vývar, uzenina, vejce, česnek, tvarůžek)",
+   "Hanácká česnečka Speciál (vývar, uzenina, vejce, česnek, sýr)"
+  ],
+  "mains": [
+   {
+    "name": "Hovězí svíčková na smetaně, brusinkový terč, houskový knedlík",
+    "price": 180
+   },
+   {
+    "name": "Zeleninový salát s kuřecím masem a sýrem, česnekový dip, pečivo",
+    "price": 170
+   },
+   {
+    "name": "Pečené kuřecí stehno na slanině, bramborová kaše",
+    "price": 160
+   },
+   {
+    "name": "Vepřové ledvinky na cibulce a slanině, dušená rýže",
+    "price": 160
+   },
+   {
+    "name": "Vepřové výpečky, dušená kapusta, chléb",
+    "price": 160
+   },
+   {
+    "name": "Kuřecí nudličky na houbách, dušená rýže",
+    "price": 160
+   },
+   {
+    "name": "Hovězí guláš na Šeráku, cibule, feferonka, houskový knedlík",
+    "price": 180
+   },
+   {
+    "name": "Boloňské špagety, hoblinky parmazánu",
+    "price": 160
+   },
+   {
+    "name": "Steak z krkovičky sous-vide, fazolové lusky se slaninou, pečené zámecké brambory",
+    "price": 210
+   },
+   {
+    "name": "Vepřový steak se šunkou a sázeným vejcem, opékané brambory",
+    "price": 195
+   },
+   {
+    "name": "Smažený sýr, smažené hranolky, tatarská omáčka",
+    "price": 195
+   },
+   {
+    "name": "Kuřecí steak Caprese (rajče, mozzarella, bazalkové pesto), opékané brambory",
+    "price": 195
+   }
+  ],
+  "lat": 49.5964617,
+  "lon": 17.2346408
+ },
+ {
+  "menicka_id": 9433,
+  "name": "City Inn Hotel Olomouc",
+  "url": "https://www.menicka.cz/9433-city-inn-hotel-olomouc.html",
+  "soups": [
+   "Vývar se zeleninou a nudlemi"
+  ],
+  "mains": [
+   {
+    "name": "Smažený květák, vařený brambor, tatarská omáčka",
+    "price": 159
+   },
+   {
+    "name": "Kuřecí kung-pao, rýže basmati",
+    "price": 169
+   },
+   {
+    "name": "Pomalu pečené husí stehno, bílé a červené zelí, bramborové lokše, husí jus",
+    "price": 399
+   }
+  ],
+  "lat": 49.572425,
+  "lon": 17.2329923
+ },
+ {
+  "menicka_id": 9575,
+  "name": "Bombay Express",
+  "url": "https://www.menicka.cz/9575-bombay-express.html",
+  "soups": [
+   "Pumpkin soup (dýňová polévka)"
+  ],
+  "mains": [
+   {
+    "name": "Pumpkin chicken- dýně hokaido, kuřecí maso plain naan/rýže",
+    "price": 164
+   },
+   {
+    "name": "Pumpkin Sabz- dýňová variace s rajčaty a cibulí, coconut dal plain naan/ rýže",
+    "price": 154
+   }
+  ],
+  "lat": 49.5865306,
+  "lon": 17.2587695
+ },
+ {
+  "menicka_id": 8849,
+  "name": "Neobyčejné Bistro",
+  "url": "https://www.menicka.cz/8849-neobycejne-bistro.html",
+  "soups": [
+   "Tomatová polévka s pohankou"
+  ],
+  "mains": [
+   {
+    "name": "Roastbeef s kapary majonézou s rozmarýnovými brambory",
+    "price": 319
+   },
+   {
+    "name": "Kachní pečínky s brusinkový červeným zelím a variací knedlíků",
+    "price": 369
+   },
+   {
+    "name": "Kuřecí kung pao s dušenou jasmínovou rýží",
+    "price": 229
+   },
+   {
+    "name": "Steak z 15h pečené vepřové krkovice, pečené bylinkové grenaille, omáčka z olomouchých tvarůžků, chilli kukuřice",
+    "price": 229
+   },
+   {
+    "name": "Lívance s vanilkovým šodó a makovo-švestkovou omáčkou",
+    "price": 199
+   }
+  ],
+  "lat": 49.5967012,
+  "lon": 17.2623646
+ },
+ {
+  "menicka_id": 7062,
+  "name": "Pizzerie Olis",
+  "url": "https://www.menicka.cz/7062-pizzerie-olis.html",
+  "soups": [
+   "Česnečka s bramborem a vejci"
+  ],
+  "mains": [
+   {
+    "name": "Uzené maso, křenová omáčka, houskový knedlík",
+    "price": 159
+   },
+   {
+    "name": "Smažené kuřecí řízečky s nádechem kari, bramborový salát",
+    "price": 179
+   },
+   {
+    "name": "Vepřový steak se šunkou a vejcem, domácí americké brambory",
+    "price": 179
+   },
+   {
+    "name": "Pizza salámová s tuňákem a cibulí",
+    "price": 229
+   },
+   {
+    "name": "Pomalinku pečené kachní stehno, bílé kysané zelí, červené s jablky a brusinkami, mix domácích knedlíků",
+    "price": 399
+   },
+   {
+    "name": "Domácí bramborák s kuřecími kousky a lehce pikantní směsí se zeleninou sypané sýrem",
+    "price": 279
+   },
+   {
+    "name": "Čerstvý rajčatový salát",
+    "price": 49
+   },
+   {
+    "name": "Čerstvý okurkový salát",
+    "price": 49
+   },
+   {
+    "name": "akce 1,5l Poděbradka Prolinie",
+    "price": 30
+   }
+  ],
+  "lat": 49.5722572,
+  "lon": 17.2594887
+ },
+ {
+  "menicka_id": 5294,
+  "name": "Morgans restaurant",
+  "url": "https://www.menicka.cz/5294-morgans-restaurant.html",
+  "soups": [
+   "Bramboračka s hřiby a zeleninou"
+  ],
+  "mains": [
+   {
+    "name": "Thajské kuřecí nudličky se zeleninou, jasmínová rýže sypaná sezamem",
+    "price": 155
+   },
+   {
+    "name": "Přírodní vepřový závitek plněný sýrem a klobásou s přírodní šťávou, opékané brambory",
+    "price": 155
+   },
+   {
+    "name": "Špagety po uhlířsku s anglickou slaninou, sypané sýrem Gran Moravia",
+    "price": 150
+   },
+   {
+    "name": "Pečená vepřová sekaná, jemná bramborová kaše, kyselý okurek",
+    "price": 179
+   },
+   {
+    "name": "TÝDENNÍ MENU: Filírovaný brazilský rib-eye steak na fazolových luscích s česnekem",
+    "price": 189
+   },
+   {
+    "name": "Hovězí jalapenos burger s cheddarem, chipotle majonézou, rajčetem a ledovým salátem, hranolky",
+    "price": 185
+   }
+  ],
+  "lat": 49.5917522,
+  "lon": 17.2503975
+ },
+ {
+  "menicka_id": 7063,
+  "name": "Restaurace – penzion „Farmářská bašta“",
+  "url": "https://www.menicka.cz/7063-restaurace-penzion-farmarska-basta.html",
+  "soups": [
+   "Drůbeží vývar - k obědovému menu zdarma"
+  ],
+  "mains": [
+   {
+    "name": "Kuřecí plátek zapečený s balkánským sýrem a sušenými rajčaty, ameriky",
+    "price": 172
+   },
+   {
+    "name": "Špagety po uhlířsku",
+    "price": 162
+   }
+  ],
+  "lat": 49.5790877,
+  "lon": 17.4609307
+ },
+ {
+  "menicka_id": 5927,
+  "name": "Restaurant Pension Caruso",
+  "url": "https://www.menicka.cz/5927-restaurant-pension-caruso.html",
+  "soups": [
+   "Gulášová s bramborem"
+  ],
+  "mains": [
+   {
+    "name": "Koprová omáčka, 2 ks vejce, houskový hnedlík",
+    "price": 145
+   },
+   {
+    "name": "Vepřová panenka v bránici, vařený brambor, tatarská omáčka",
+    "price": 145
+   },
+   {
+    "name": "Grilovaná klobáska zdobená cibulkou, bramborová kaše",
+    "price": 145
+   },
+   {
+    "name": "ks Smažené tvarůžky, hranolky, tatarská omáčka",
+    "price": 175
+   },
+   {
+    "name": "Přírodní kuřecí medailonky, jasmínová rýže",
+    "price": 175
+   }
+  ],
+  "lat": 49.5745172,
+  "lon": 17.2581194
+ },
+ {
+  "menicka_id": 5309,
+  "name": "Restaurace KIKIRIKI",
+  "url": "https://www.menicka.cz/5309-restaurace-kikiriki.html",
+  "soups": [
+   "Kuřecí polévka"
+  ],
+  "mains": [
+   {
+    "name": "Grilovaná kuřecí prsa s čedarem, 100g Opékané brambory",
+    "price": 185
+   },
+   {
+    "name": "Kuřecí salát – grilovaná kuřecí prsa s goudou v čerstvé zelenině",
+    "price": 173
+   },
+   {
+    "name": "Kuřecí steak s rukolou a anglickou slaninou, 100g Hranolky",
+    "price": 195
+   },
+   {
+    "name": "TORTILA – plněná kuřecím masem a čerstvou zeleninou",
+    "price": 159
+   },
+   {
+    "name": "Kuřecí BURGER- grilovaná kuřecí prsa, slanina, sýr, BBQ, polníček + steakové hranolky",
+    "price": 195
+   },
+   {
+    "name": "Smažené žampióny, 120g Vařené brambory + tatarská omáčka",
+    "price": 183
+   },
+   {
+    "name": "Kuřecí qurrito (tortilla plněná sýrem, slaninou a masem), Hranolky + tatarská omáčka",
+    "price": 190
+   },
+   {
+    "name": "Dukátové buchtičky s vanilkovým krémem",
+    "price": 163
+   },
+   {
+    "name": "Smažený květák, 120g Vařené brambory + tatarská omáčka",
+    "price": 183
+   }
+  ],
+  "lat": 49.5926606,
+  "lon": 17.2504367
+ },
+ {
+  "menicka_id": 6147,
+  "name": "Coffee Library",
+  "url": "https://www.menicka.cz/6147-coffee-library.html",
+  "soups": [
+   "indická čočková polévka"
+  ],
+  "mains": [
+   {
+    "name": "dýňové gnocchi s vepřovou panenkou, parmazán",
+    "price": null
+   }
+  ],
+  "lat": 49.5957069,
+  "lon": 17.2601203
+ },
+ {
+  "menicka_id": 5849,
+  "name": "Opera Caffe",
+  "url": "https://www.menicka.cz/5849-opera-caffe.html",
+  "soups": [
+   "Velluta di cavolfiore/porkový krém se smetanou a bazalkovým pestem"
+  ],
+  "mains": [
+   {
+    "name": "Rigatoni al arrabbiata/naše rigatoni, pomodoro, pancetta, čenek, chilli, parmezán",
+    "price": 219
+   },
+   {
+    "name": "Pizza con salame/ rajčatový základ, mozzarella Fior di Latte, salám Napoli, bazalka",
+    "price": 199
+   },
+   {
+    "name": "Risotto alla zucca e anatra/ krémové rizoto s dýní a filirovaným kachním prsem/",
+    "price": 259
+   }
+  ],
+  "lat": 49.5931287,
+  "lon": 17.250572
+ },
+ {
+  "menicka_id": 7049,
+  "name": "Plán B",
+  "url": "https://www.menicka.cz/7049-plan-b.html",
+  "soups": [
+   "Hrachová polévka, uzenina"
+  ],
+  "mains": [
+   {
+    "name": "Telecí plec, sušená rajčata, olivy, bazalka, basmati rýže",
+    "price": 166
+   },
+   {
+    "name": "Medailonky z vepřové panenky, penne, houbová omáčka, pancetta, gran moravia",
+    "price": 166
+   },
+   {
+    "name": "Krůtí prsíčko, baby špenát, sušená šunka, bramborové pyré",
+    "price": 160
+   },
+   {
+    "name": "Filet z mořské štiky, smetanová omáčka, limetka, pečené brambory",
+    "price": 176
+   },
+   {
+    "name": "Smažený cheddar, grenaille, tatarská omáčk",
+    "price": 156
+   }
+  ],
+  "lat": 49.5912672,
+  "lon": 17.2501265
+ },
+ {
+  "menicka_id": 5300,
+  "name": "Ristorante Pollo",
+  "url": "https://www.menicka.cz/5300-ristorante-pollo.html",
+  "soups": [
+   "Brokolicová s krutony",
+   "DRŮBEŽÍ VÝVAR s játrovými knedlíčky, zeleninou a nudlemi"
+  ],
+  "mains": [
+   {
+    "name": "ČOČKA NA KYSELO - tradiční čočka se šunkovou klobásou, sázeným vejcem, restovanou cibulkou, nakládanými okurkami a řemeslným kváskovým chlebem",
+    "price": 180
+   },
+   {
+    "name": "FUSILLI AL GENOVESE - grilovaná kuřecí prsa na italských těstovinách s bazalkovým pestem, sekanými vlašskými ořechy a strouhaným parmazánem",
+    "price": 185
+   },
+   {
+    "name": "TRADIČNÍ ČEVABČIČI - pečené válečky z mělněného masa, podávané s vařenými bramborami, cibulkou, hořčicí, jemným hráškem a ajvarem",
+    "price": 185
+   },
+   {
+    "name": "HOVĚZÍ NA HOUBÁCH - hovězí pečeně v omáčce s lesními hříbky, podávaná s jasmínovou rýží s čerstvě sekanou petrželkou",
+    "price": 189
+   },
+   {
+    "name": "STÁLÁ NABÍDKA: CAESAR SALÁT - grilovaná kuřecí prsa na cézar salátu z římského salátu s naším cézar dresinkem, krutony, restovanou anglickou slaninou a parmezánem",
+    "price": 229
+   },
+   {
+    "name": "SALMONE CON TAGLIATELLE - filet z čerstvého lososa (180g) podávaný na italských těstovinách se smetanovou omáčkou z čerstvého kopru",
+    "price": 299
+   },
+   {
+    "name": "PIZZA 1: CON PROSCIUTTO COTTO - omáčka z rajčat San Marzano, mozzarella, dušená šunka zapečená mozzarellou",
+    "price": 219
+   },
+   {
+    "name": "PIZZA 2: PEPERONI PICANTE - omáčka z rajčat San Marzano, mozzarella, paprikový salám, papričky Jalapeňos",
+    "price": 229
+   },
+   {
+    "name": "MALÝ HLAD: ŠUNKOVÁ MINI PIZZA - rajčatová omáčka, mozzarella, šunka",
+    "price": 135
+   },
+   {
+    "name": "MALÝ HLAD: DĚTSKÉ BOLOŇSKÉ ŠPAGETY - kvalitní italské špagety podávané s naší boloňskou omáčkou, sypané strouhaným parmazánem, rukola",
+    "price": 135
+   },
+   {
+    "name": "KÁVA: Vergnano Caffé - z rodinné italské pražírny + dezerty dle denního výběru",
+    "price": 49
+   }
+  ],
+  "lat": 49.5837186,
+  "lon": 17.225885
+ },
+ {
+  "menicka_id": 6157,
+  "name": "Restaurace Porto",
+  "url": "https://www.menicka.cz/6157-restaurace-porto.html",
+  "soups": [
+   "Polský zeleninový boršč"
+  ],
+  "mains": [
+   {
+    "name": "Kovbojská pánev (hovězí maso, klobása, fazole, kukuřice) s nočkem zakysané smetany, čerstvý chléb",
+    "price": 149
+   },
+   {
+    "name": "ks Kuřecí paličky na másle se šlehanou bramborovou kaší",
+    "price": 149
+   },
+   {
+    "name": "Domácí bramborák plněný masovou směsí se strouhaným sýrem",
+    "price": 159
+   },
+   {
+    "name": "ks Bramborové knedlíky plněné uzeným masem, špenát, vídeňská cibulka",
+    "price": 159
+   },
+   {
+    "name": "Míchaný zeleninový salát s trhaným vepřovým masem, BBQ omáčkou, domácí pita chléb",
+    "price": 159
+   },
+   {
+    "name": "Vídeňský hovězí guláš, houskové knedlíky",
+    "price": 179
+   },
+   {
+    "name": "PIZZA 31cm OLOMOUCIANA (mozzarella, tomat, oregáno, tvarůžky, slanina, klobása, česnek, cibule)",
+    "price": 199
+   },
+   {
+    "name": "Smažený duel řízků (kuřecí prsa a vepřová kotleta) s domácím bramborovým salátem s majonézou",
+    "price": 199
+   },
+   {
+    "name": "Kuřecí steak CAPRESE (rajče, mozarella, bazalkové pesto), belgické hranolky",
+    "price": 199
+   },
+   {
+    "name": "PIKANTNÍ HOVĚZÍ GULÁŠEK zdobený červenou cibulkou a feferonkou, houskový knedlík",
+    "price": 189
+   },
+   {
+    "name": "Tortilla CAESAR, kuřecí maso, dresing, slanina, malé hranolky",
+    "price": 199
+   },
+   {
+    "name": "Salát „CAESAR“, trhané listy římského salátu s kuřecím masem, dresinkem, restovanou slaninou, krutony a hoblinkami parmazánu",
+    "price": 189
+   }
+  ],
+  "lat": 49.5928994,
+  "lon": 17.2778511
+ },
+ {
+  "menicka_id": 5312,
+  "name": "Restaurace U Rytíře",
+  "url": "https://www.menicka.cz/5312-restaurace-u-rytire.html",
+  "soups": [
+   "zeleninová"
+  ],
+  "mains": [
+   {
+    "name": "Kuřecí steak Retro s broskví, šunkou a sýrem, hranolky",
+    "price": 165
+   },
+   {
+    "name": "Vepřová směs v bramboráku, míchaný zeleninový salát",
+    "price": 165
+   },
+   {
+    "name": "Kuřecí rizoto se sýrem, sterilovaný okurek",
+    "price": 165
+   },
+   {
+    "name": "Smažená niva, vařené brambory, tatarská omáčka",
+    "price": 165
+   },
+   {
+    "name": "Zeleninový salát s tuňákem a sázeným vejcem",
+    "price": 165
+   },
+   {
+    "name": "Přepuštěné husí sádlo s jarní cibulkou, chléb",
+    "price": 65
+   },
+   {
+    "name": "Paštika s brusinkami a mandlí, pečivo",
+    "price": 75
+   },
+   {
+    "name": "Pečené husí stehno, červené a bílé zelí, houskový, karlovarský a bramborový knedlík (doporučujeme rezervaci)",
+    "price": 469
+   }
+  ],
+  "lat": 49.5937464,
+  "lon": 17.2219522
+ },
+ {
+  "menicka_id": 7045,
+  "name": "Moritz",
+  "url": "https://www.menicka.cz/7045-moritz.html",
+  "soups": [
+   "Kulajda s čerstvým koprem",
+   "Rozvážíme pouze celé menu (polévka + hlavní chod)"
+  ],
+  "mains": [
+   {
+    "name": "Hovězí svíčková na smetaně s houskovým knedlíkem",
+    "price": 185
+   },
+   {
+    "name": "Kuřecí řízek Ondráš s pikantním zelným salátem",
+    "price": 179
+   },
+   {
+    "name": "Zapečená brokolice se sýrem a smetanou, vařené brambory",
+    "price": 179
+   },
+   {
+    "name": "Smažený Kuřecí řízek s vařenými brambory a tatarskou omáčkou",
+    "price": 179
+   }
+  ],
+  "lat": 49.5906196,
+  "lon": 17.2497103
+ },
+ {
+  "menicka_id": 8636,
+  "name": "NUTREND World",
+  "url": "https://www.menicka.cz/8636-nutrend-world.html",
+  "soups": [
+   "Brokolicový krém s krutony",
+   "Hovězí vývar, maso, zelenina, těstovina"
+  ],
+  "mains": [
+   {
+    "name": "Kuřecí nudličky v sýrové omáčce, polníček",
+    "price": 189
+   },
+   {
+    "name": "Vepřová kotleta se sázeným vejcem a šunkou",
+    "price": 189
+   },
+   {
+    "name": "Grilovaný losos s kung-pao glazé",
+    "price": 239
+   },
+   {
+    "name": "Vege: 200g Květákové placky se sýrem, bylinkový dip",
+    "price": 179
+   },
+   {
+    "name": "Fit: 150g Kuře Vindaloo s basmati rýží a koriandrem al 720 Bílkoviny 36 g, sacharidy 82 g, tuky",
+    "price": 239
+   },
+   {
+    "name": "Tip: 150g Jelení hřbet v pistáciové krustě s dýňovým pyré, demi-glace",
+    "price": 359
+   },
+   {
+    "name": "Spaghetti Carbonara",
+    "price": 209
+   },
+   {
+    "name": "Strozzapreti salsiccia e finocchio (rajčata, fenykl, pecorino)",
+    "price": 209
+   },
+   {
+    "name": "Risotto gorgonzola s pošírovanou hruškou, ořech",
+    "price": 229
+   },
+   {
+    "name": "Tip Pasta: Tagliatelle Bolognese",
+    "price": 249
+   },
+   {
+    "name": "Dezert: Creme Brulée",
+    "price": 45
+   },
+   {
+    "name": "Business menu 3 chod",
+    "price": 489
+   }
+  ],
+  "lat": 49.6082469,
+  "lon": 17.2959672
+ },
+ {
+  "menicka_id": 8644,
+  "name": "Restaurace Stodola",
+  "url": "https://www.menicka.cz/8644-restaurace-stodola.html",
+  "soups": [
+   "Husí kaldoun – kořenová zelenina, husí maso, domácí nudle"
+  ],
+  "mains": [
+   {
+    "name": "Husí paštika – cibulové chutney, brusinky, kváskový chléb",
+    "price": 119
+   },
+   {
+    "name": "Pečená svatomartinská husa – variace zelí, houskový a bramborový knedlík, husí jus",
+    "price": 499
+   },
+   {
+    "name": "Hruškový štrúdl – skořice, vlašské ořechy, vanilková omáčka",
+    "price": 119
+   },
+   {
+    "name": "KOMPLETNÍ SVATOMARTINSKÉ MENU – paštika, kaldoun, husa, štrúdl",
+    "price": 799
+   },
+   {
+    "name": "Polední menu: Hrášková / v ceně menu / samostatně 45",
+    "price": null
+   },
+   {
+    "name": "Vepřová pečeně na kmíně, dušené zelí, houskový knedlík",
+    "price": 185
+   },
+   {
+    "name": "Bryndzové halušky s karamelizovanou cibulí a pažitkou / VEGE",
+    "price": 189
+   },
+   {
+    "name": "Pečená treska na másle s citronem, šťouchaný brambor s bylinkami",
+    "price": 189
+   },
+   {
+    "name": "FIT – Teriyaki bowl – kuřecí stehenní maso v teriyaki glaze, jasmínová rýže, restovaná zelenina, sezam",
+    "price": 189
+   },
+   {
+    "name": "CHEF MENU – Hovězí líčka na červeném víně, glazovaná kořenová zelenina, bramborová kaše, silná šťáva z červeného vína",
+    "price": 259
+   }
+  ],
+  "lat": 49.5954774,
+  "lon": 17.2394569
+ },
+ {
+  "menicka_id": 5551,
+  "name": "Hotel Senimo",
+  "url": "https://www.menicka.cz/5551-hotel-senimo.html",
+  "soups": [
+   "Krupicová polévka se zeleninou"
+  ],
+  "mains": [
+   {
+    "name": "Hovězí Stroganov, dušená rýže, okurkový salát",
+    "price": 169
+   },
+   {
+    "name": "Vepřová kotleta na houbách, kynuté knedlíky",
+    "price": 155
+   },
+   {
+    "name": "Smažené zeleninové karbanátky, vařené brambory, tatarská omáčka",
+    "price": 139
+   },
+   {
+    "name": "Ratatouille s těstovinami a sýrem",
+    "price": 145
+   },
+   {
+    "name": "Pečené kachní stehno, červené a bílé zelí, variace knedlíků",
+    "price": 259
+   }
+  ],
+  "lat": 49.5996667,
+  "lon": 17.27375
+ },
+ {
+  "menicka_id": 6129,
+  "name": "Gastroflash",
+  "url": "https://www.menicka.cz/6129-gastroflash.html",
+  "soups": [
+   "Brokolicová"
+  ],
+  "mains": [
+   {
+    "name": "Frankfurtská roláda z vepřové kotlety, vařené brambory",
+    "price": 160
+   },
+   {
+    "name": "Kuřecí prsíčka na žampionech, dušená dlouhozrnná rýže",
+    "price": 160
+   },
+   {
+    "name": "Smažený sýrový špíz (eidam, hermelín), vařené brambory, tatarská omáčka",
+    "price": 160
+   }
+  ],
+  "lat": 49.5892975,
+  "lon": 17.2335408
+ },
+ {
+  "menicka_id": 6945,
+  "name": "Michalský výpad",
+  "url": "https://www.menicka.cz/6945-michalsky-vypad.html",
+  "soups": [],
+  "mains": [
+   {
+    "name": "Trampský gulášek s klobáskou a paprikou, zdobený řezanou červenou cibulkou, pečivo A-1, 3, 7, 9",
+    "price": 155
+   },
+   {
+    "name": "Smažený květák, brambory s máslem, tatarka A-1, 3, 7, 10",
+    "price": 159
+   },
+   {
+    "name": "Štěpánská vepřová pečeně s vejci a šunkou, jasmínová rýže, okurek A-1, 3, 7, 9, 11, 13",
+    "price": 165
+   },
+   {
+    "name": "Královský kuřecí steak zapečený se šunkou, hermelínem a brusinkami, bramborové krokety, tatarka A-1, 3, 7, 9",
+    "price": 169
+   },
+   {
+    "name": "Tortilla Ceasar - kuřecí masíčko, slaninka, parmazán, křupavý salátek, rajče a bylinkový dip v křupavé tortille, hranolky, tatarka A-1, 3, 7, 10, 12",
+    "price": 169
+   }
+  ],
+  "lat": 49.5906324,
+  "lon": 17.2552365
+ },
+ {
+  "menicka_id": 8239,
+  "name": "Zdravíčko",
+  "url": "https://www.menicka.cz/8239-zdravicko.html",
+  "soups": [
+   "Zeleninová polévka s jáhlami a petrželkou"
+  ],
+  "mains": [
+   {
+    "name": "ZELENINOVÉ RAGÚ S CIZRNOU, BIO RÝŽE: Ragú z cuket, černé kapusty, paprik a rajčat ochucené tahini pastou, papriková cizrna, BIO rýže natural, rukola",
+    "price": 190
+   },
+   {
+    "name": "Veganský dezert: tyčinka Snickers (bez lepku a přidaného cukru)",
+    "price": null
+   },
+   {
+    "name": "Veganský moučník: švestkový košíček z kvásku a celozrnné mouky slazený obilným sladem",
+    "price": null
+   }
+  ],
+  "lat": 49.5976815,
+  "lon": 17.2566591
+ },
+ {
+  "menicka_id": 8699,
+  "name": "Radegastovna U Fleka",
+  "url": "https://www.menicka.cz/8699-radegastovna-u-fleka.html",
+  "soups": [
+   "Zeleninová"
+  ],
+  "mains": [
+   {
+    "name": "Vepřový steak z kotlety s vídeňskou cibulkou, krokety",
+    "price": 184
+   },
+   {
+    "name": "Medailonky z mořské štiky na másle, petrželové brambory",
+    "price": 174
+   },
+   {
+    "name": "Zeleninový salát se sýrem halloumi s francouzským dresingem",
+    "price": 174
+   },
+   {
+    "name": "PIzza (Smetana, eidam, špenát, kuřecí maso)",
+    "price": 174
+   },
+   {
+    "name": "Smažený uzený sýr, hranolky, tatarská omáčka",
+    "price": 174
+   },
+   {
+    "name": "Qurrito (tortilla s kuřecími stripsy, BBQ omáčka, cheddar) hranolky",
+    "price": 174
+   }
+  ],
+  "lat": 49.5949664,
+  "lon": 17.2416519
+ },
+ {
+  "menicka_id": 5697,
+  "name": "Potrefená husa",
+  "url": "https://www.menicka.cz/5697-potrefena-husa.html",
+  "soups": [
+   "kapustová se špekem"
+  ],
+  "mains": [
+   {
+    "name": "ŠPEKOVÉ KNEDLÍKY s kysaným zelím a osmaženou cibulkou",
+    "price": 184
+   },
+   {
+    "name": "SKOTSKÉ VEJCE s bramborovou kaší a sterilovaným okurkem",
+    "price": 185
+   },
+   {
+    "name": "HOVĚZÍ STROGANOFF s dušenou rýží",
+    "price": 186
+   },
+   {
+    "name": "GRILOVANÝ OKOUN NILSKÝ s pórkem na smetaně a bylinkovými bramborami",
+    "price": 279
+   },
+   {
+    "name": "HOLANDSKÝ TELECÍ ŘÍZEK s bramborovou kaší a sterilovaným okurkem",
+    "price": 279
+   },
+   {
+    "name": "Salát mrkvový salát s ananasem",
+    "price": 49
+   },
+   {
+    "name": "Dezert dezert z naší cukrárny",
+    "price": 121
+   },
+   {
+    "name": "Nápoj staropramen extra chmel šnyt",
+    "price": 41
+   },
+   {
+    "name": "Nápoj čepovaná malinovka",
+    "price": 26
+   }
+  ],
+  "lat": 49.5940192,
+  "lon": 17.2528311
+ },
+ {
+  "menicka_id": 5909,
+  "name": "Restaurace U Mlýna",
+  "url": "https://www.menicka.cz/5909-restaurace-u-mlyna.html",
+  "soups": [
+   "Kmínová s vajíčkem a zeleninou"
+  ],
+  "mains": [
+   {
+    "name": "Čočka na kyselo, sázené vejce, kyselá okurka, restovaná cibulka, čerstvý chléb",
+    "price": 155
+   },
+   {
+    "name": "Smažené kuřecí řízečky v sezamové strouhance, bramborová kaše, kyselá okurka",
+    "price": 159
+   },
+   {
+    "name": "Hovězí ořech na cibuli a hořčici, jasmínová rýže",
+    "price": 179
+   },
+   {
+    "name": "Zeleninový salát s kuřecími nudličkami, baby mozzarella (rajče, okurek, paprika, ledový salát, bazalkové pesto) bagetka",
+    "price": 169
+   },
+   {
+    "name": "BALKÁN TORTILLA (kuřecí gyros, balkánský sýr, ledový salát, rajče, domácí tatarská omáčka) hranolky",
+    "price": 169
+   },
+   {
+    "name": "Smažený vepřový řízek z kotlety, domácí bramborový salát",
+    "price": 169
+   },
+   {
+    "name": "Smažený hermelín, hranolky, domácí tatarská omáčka, brusinky",
+    "price": 169
+   }
+  ],
+  "lat": 49.6100863,
+  "lon": 17.2829425
+ },
+ {
+  "menicka_id": 5290,
+  "name": "M.D.Original 1869",
+  "url": "https://www.menicka.cz/5290-m-d-original-1869.html",
+  "soups": [
+   "Česneová s topinkou"
+  ],
+  "mains": [
+   {
+    "name": "Smažený romadůr, vařené brambory, tatarská omáčka",
+    "price": 170
+   },
+   {
+    "name": "Mexická kuřecí pánev, dušená rýže",
+    "price": 170
+   },
+   {
+    "name": "Segedínský guláš speciál, houskový knedlík",
+    "price": 170
+   },
+   {
+    "name": "Vepřový kotlet s restovanými žampiony, šťouchané brambory",
+    "price": 170
+   },
+   {
+    "name": "Marinované maso dvou chutí, bramborové hranolky, bylinkový dip",
+    "price": 178
+   }
+  ],
+  "lat": 49.5923553,
+  "lon": 17.2737958
+ },
+ {
+  "menicka_id": 6606,
+  "name": "U BERŇÁKU",
+  "url": "https://www.menicka.cz/6606-u-bernaku.html",
+  "soups": [
+   "Gulášová polévka s bramborami"
+  ],
+  "mains": [
+   {
+    "name": "Přírodní hovězí roštěná, pepřová omáčka, hranolky",
+    "price": 189
+   },
+   {
+    "name": "Smažený Gordon Bleu se šunkou a sýrem, bramborová kaše",
+    "price": 179
+   },
+   {
+    "name": "Pekingské kuřecí nudličky, dušená rýže",
+    "price": 174
+   },
+   {
+    "name": "Kuře na paprice, houskový knedlík",
+    "price": 174
+   },
+   {
+    "name": "Čočka na kyselo, opečená klobása, sázené vejce, opečená cibulka, steril. okurek, chléb",
+    "price": 174
+   },
+   {
+    "name": "Domácí hovězí burger s hranolky a tatarskou omáčkou",
+    "price": 194
+   },
+   {
+    "name": "Hovězí svíčková na smetaně, houskový knedlík",
+    "price": 189
+   },
+   {
+    "name": "Smažený hermelín, vařené brambory, tatarská omáčka",
+    "price": 189
+   }
+  ],
+  "lat": 49.601637,
+  "lon": 17.252357
+ },
+ {
+  "menicka_id": 7046,
+  "name": "Konvikt Olomouc",
+  "url": "https://www.menicka.cz/7046-konvikt-olomouc.html",
+  "soups": [
+   "Dýňový krém s dýňovými a sezamovými semínky (vegan)"
+  ],
+  "mains": [
+   {
+    "name": "Kuřecí stehno bez kosti se satay omáčkou, basmati rýží a okurkami s thajskou bazalkou a šalotkou",
+    "price": 200
+   },
+   {
+    "name": "Massaman curry s bramborami, mrkví, hráškem a batáty, basmati rýží a koriandrem (vegan)",
+    "price": 200
+   }
+  ],
+  "lat": 49.5947557,
+  "lon": 17.2552925
+ },
+ {
+  "menicka_id": 5299,
+  "name": "Restaurace U Mořice",
+  "url": "https://www.menicka.cz/5299-restaurace-u-morice.html",
+  "soups": [
+   "Uzená s masem a bramborem"
+  ],
+  "mains": [
+   {
+    "name": "Telecí kýta na šípkové omáčce s houskovým knedlíkem",
+    "price": 185
+   },
+   {
+    "name": "Uzené koleno se šťouchanými bramborami",
+    "price": 185
+   },
+   {
+    "name": "Vepřové Kung-Pao s rýží basmati",
+    "price": 185
+   },
+   {
+    "name": "Čočka na kyselo s grilovanou klobásou a cibulovým chlebem",
+    "price": 185
+   }
+  ],
+  "lat": 49.5946189,
+  "lon": 17.2517081
+ },
+ {
+  "menicka_id": 6146,
+  "name": "Bistro Rozmarýny",
+  "url": "https://www.menicka.cz/6146-bistro-rozmaryny.html",
+  "soups": [
+   "Dýňová polévka se zázvorem."
+  ],
+  "mains": [
+   {
+    "name": "Hlíva na paprice. Rýže.",
+    "price": 175
+   },
+   {
+    "name": "Řecké ragú s bulgurem a fetou.",
+    "price": 175
+   },
+   {
+    "name": "Fit salát z červené řepy. Kozí sýr. Pečivo.",
+    "price": 175
+   }
+  ],
+  "lat": 49.5933456,
+  "lon": 17.2762986
+ },
+ {
+  "menicka_id": 5301,
+  "name": "Lobster Family restaurant",
+  "url": "https://www.menicka.cz/5301-lobster-family-restaurant.html",
+  "soups": [
+   "Batátový krém s pancettou - pažitka"
+  ],
+  "mains": [
+   {
+    "name": "Rigatoni se sušenou šunkou a hráškem - máslo, parmazán",
+    "price": 205
+   },
+   {
+    "name": "Smažená vepřová kotleta - italský bramborový salát, citron",
+    "price": 235
+   },
+   {
+    "name": "Krůtí prso s rozmarýnovou omáčkou - bramborovo-česneková kaše, pečená karotka",
+    "price": 245
+   },
+   {
+    "name": "Filet z candáta s pečenými špeclemi - křenová omáčka",
+    "price": 315
+   },
+   {
+    "name": "Steak z hovězího ořechu - smažená polenta, houbové soté, pancetta",
+    "price": 335
+   },
+   {
+    "name": "Margherita - rajčata San Marzano, mozzarella, bazalka",
+    "price": 205
+   },
+   {
+    "name": "Pancetta e jalapeno - mozzarella, bazalka, parmezán, pancetta, jalapeno",
+    "price": 215
+   },
+   {
+    "name": "Bianca se sušenými rajčaty - mozzarella, bazalka, sušená rajčata, bazalkové pesto",
+    "price": 215
+   },
+   {
+    "name": "Bianca con pomodoro e rucola - mozzarella, parmezán, bazalka, cherry rajčata, rukola",
+    "price": 215
+   }
+  ],
+  "lat": 49.5864678,
+  "lon": 17.25848
+ },
+ {
+  "menicka_id": 6151,
+  "name": "Cafe new one",
+  "url": "https://www.menicka.cz/6151-cafe-new-one.html",
+  "soups": [],
+  "mains": [
+   {
+    "name": "Smažené kuřecí prso plněné šunkou a sýrem, bramborová kaše",
+    "price": null
+   },
+   {
+    "name": "Husí stehno, bystročické zelí, bramborové lokše",
+    "price": null
+   },
+   {
+    "name": "Risotto s hovězí sušenou šunkou a rukolou",
+    "price": null
+   },
+   {
+    "name": "Špenátové lasagne, parmazánová omáčka",
+    "price": null
+   },
+   {
+    "name": "Pstruh, batátové pyré, kaparová omáčka",
+    "price": null
+   },
+   {
+    "name": "Stroganov z vepřové panenky, rýže",
+    "price": null
+   }
+  ],
+  "lat": 49.5939444,
+  "lon": 17.248165
+ },
+ {
+  "menicka_id": 7050,
+  "name": "Restaurace Fontána",
+  "url": "https://www.menicka.cz/7050-restaurace-fontana.html",
+  "soups": [
+   "Hrachová s krutóny"
+  ],
+  "mains": [
+   {
+    "name": "Vepřové nudličky s cibulí a slaninou, hrášková rýže",
+    "price": 165
+   },
+   {
+    "name": "Vepřový řízek \"Ondráš\", salát z čínského zelí s karotkou a křenem",
+    "price": 199
+   },
+   {
+    "name": "Grilované kuřecí nudle s čerstvou rukolou, zeleninový kuskus",
+    "price": 179
+   },
+   {
+    "name": "Smažené tvarůžkysmažený eidam, vařené brambory, tatarská omáčka",
+    "price": 179
+   }
+  ],
+  "lat": 49.587257,
+  "lon": 17.251077
+ },
+ {
+  "menicka_id": 5310,
+  "name": "Bounty Rock Cafe",
+  "url": "https://www.menicka.cz/5310-bounty-rock-cafe.html",
+  "soups": [
+   "Čočková"
+  ],
+  "mains": [
+   {
+    "name": "Marinovaný krůtí steak zapečený s anglickou a sýrem Red Cheddar, bramborové Dollar Chips, tatarská omáčka",
+    "price": 169
+   },
+   {
+    "name": "Smažené kuřecí stripsy v sezamové krustě, domácí bramborová kaše",
+    "price": 169
+   },
+   {
+    "name": "Bramborové knedlíky plněné uzeným masem, špenát, cibulka",
+    "price": 169
+   },
+   {
+    "name": "Zapečené tvarůžky se šunkou v bramboráku",
+    "price": 169
+   },
+   {
+    "name": "Vepřová játra na roštu, bramborové Dollar Chips, tatarská omáčka",
+    "price": 169
+   },
+   {
+    "name": "Salát Caesar (ledový salát, kuřecí prsa, dresing, krutony, parmazán)",
+    "price": 179
+   }
+  ],
+  "lat": 49.5909703,
+  "lon": 17.2735108
+ },
+ {
+  "menicka_id": 5315,
+  "name": "Restaurace U Macků",
+  "url": "https://www.menicka.cz/5315-restaurace-u-macku.html",
+  "soups": [],
+  "mains": [
+   {
+    "name": "Kuřecí AZU, jasmínová rýže A/1a, 9",
+    "price": 169
+   },
+   {
+    "name": "Plumlovský řízek, vařený brambor A/1a, 3, 7",
+    "price": 169
+   },
+   {
+    "name": "Kmínová s vejcem A/1a, 3, 9",
+    "price": null
+   }
+  ],
+  "lat": 49.6280297,
+  "lon": 17.3396544
+ }
+]

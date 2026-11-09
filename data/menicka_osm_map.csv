@@ -1,0 +1,42 @@
+menicka_id,menicka_name,osm_id,osm_name,dist_m,score,method
+5290,M.D.Original 1869,n205403327,M. D. Original 1869,22,99,auto
+5294,Morgans restaurant,n902679352,Captain Morgan,5,68,manual
+5299,Restaurace U Mořice,n7170528585,U Mořice,12,99,auto
+5300,Ristorante Pollo,n9141104524,Ristorante Pollo,13,99,auto
+5301,Lobster Family restaurant,n5318046199,Lobster Family Restaurant,21,99,auto
+5309,Restaurace KIKIRIKI,n5329663024,Kikiriki,8,99,auto
+5310,Bounty Rock Cafe,n2056681980,Bounty Rock Café,11,99,auto
+5312,Restaurace U Rytíře,n13970696456,U Rytíře,14,99,auto
+5315,Restaurace U Macků,n13970695601,U Macků,17,99,auto
+5472,U Zlaté koule,n650723098,U Zlaté koule,5,100,auto
+5551,Hotel Senimo,,,,0,new
+5697,Potrefená husa,n10654145766,Potrefená husa Olomouc,3,100,auto
+5849,Opera Caffe,n899818558,Kavárna Opera,9,99,auto
+5909,Restaurace U Mlýna,n13970696398,Restaurace u mlýna,5,100,auto
+5927,Restaurant Pension Caruso,,,119,36,new
+6129,Gastroflash,,,,0,new
+6139,Hospůdka Leguán,n2777776908,U Leguána,3,54,manual
+6146,Bistro Rozmarýny,,,132,37,new
+6147,Coffee Library,n3624560950,Coffee Library Zbrojnice Bistro,7,100,auto
+6151,Cafe new one,n7727081985,Cafe New one,15,99,auto
+6157,Restaurace Porto,n256485138,Porto,16,99,auto
+6606,U BERŇÁKU,,,7,18,new
+6945,Michalský výpad,n2054222501,Restaurace Michalský Výpad,5,100,auto
+7045,Moritz,n1419197520,Hostinský pivovar Moritz,6,100,auto
+7046,Konvikt Olomouc,n1026637129,Cafe Restaurant Konvikt,46,97,auto
+7049,Plán B,,,148,32,new
+7050,Restaurace Fontána,n13970696428,Fontána,7,100,auto
+7062,Pizzerie Olis,n3422174268,Pizzerie a restaurant OLIS,4,100,auto
+7063,Restaurace – penzion „Farmářská bašta“,,,,0,outside
+7070,Restaurace Queen,n2398630579,Queen,5,100,auto
+7863,Burger & Beer Brothers Pod Limpou,n12752605801,Burger and Beer Brothers,5,91,auto
+8191,Restaurace Globus Olomouc,n10581820096,Café Globus,85,94,auto
+8239,Zdravíčko,n7640338477,Zdravíčko,3,100,auto
+8636,NUTREND World,n9961751647,Restaurace Nutrend,97,94,auto
+8644,Restaurace Stodola,n7104893760,Stodola,16,99,auto
+8699,Radegastovna U Fleka,n900962272,Radegastovna U Fleka,12,99,auto
+8776,Restaurace SOKOLKA,n1903987852,Sokolka,0,100,auto
+8849,Neobyčejné Bistro,n14002264382,Neobyčejné Bistro,5,100,auto
+9433,City Inn Hotel Olomouc,,,98,5,new
+9575,Bombay Express,,,24,42,new
+10267,La Padella Olomouc,,,76,28,new
