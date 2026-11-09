@@ -29,7 +29,7 @@ export function InstallPrompt() {
         await evt.prompt();
         setEvt(null);
       }}
-      className="rounded-full bg-ink px-3 py-1 text-xs font-medium text-paper"
+      className="ml-1 bg-ink px-3 py-2 text-sm font-semibold text-led"
     >
       Nainstalovat
     </button>

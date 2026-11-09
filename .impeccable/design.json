@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-09T21:49:29+00:00",
+  "title": "Design System: Obědy Olomouc",
+  "extensions": {
+    "colorMeta": {
+      "sheet": {
+        "role": "neutral",
+        "displayName": "Timetable White",
+        "canonical": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "frame": {
+        "role": "neutral",
+        "displayName": "Stop Frame Grey",
+        "canonical": "oklch(94.2% 0.005 247.9)",
+        "tonalRamp": [
+          "#0a0b0c",
+          "#242526",
+          "#414244",
+          "#5f6163",
+          "#808285",
+          "#a3a5a8",
+          "#c7c9cc",
+          "#eceff2"
+        ]
+      },
+      "frame-2": {
+        "role": "neutral",
+        "displayName": "Frame Shadow Grey",
+        "canonical": "oklch(90.8% 0.007 247.9)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232527",
+          "#404244",
+          "#5f6164",
+          "#808386",
+          "#a2a5a9",
+          "#c6cacd",
+          "#ebeff3"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Sign Black",
+        "canonical": "oklch(19.6% 0.006 271.1)",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#242528",
+          "#414245",
+          "#606164",
+          "#818285",
+          "#a4a5a8",
+          "#c8c9cc",
+          "#edeef1"
+        ]
+      },
+      "ink-press": {
+        "role": "neutral",
+        "displayName": "Pressed Black",
+        "canonical": "oklch(29.3% 0.008 264.4)",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#232529",
+          "#404246",
+          "#5f6165",
+          "#808286",
+          "#a3a5a9",
+          "#c7c9cd",
+          "#edeef2"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Graphite",
+        "canonical": "oklch(42.6% 0.015 259.8)",
+        "tonalRamp": [
+          "#080b10",
+          "#21252c",
+          "#3e424a",
+          "#5d6269",
+          "#7e838a",
+          "#a1a5ad",
+          "#c5c9d1",
+          "#ebeff5"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Pencil Grey",
+        "canonical": "oklch(54.7% 0.016 258.4)",
+        "tonalRamp": [
+          "#080b10",
+          "#21252c",
+          "#3d424a",
+          "#5c626a",
+          "#7d838c",
+          "#a0a5ae",
+          "#c4cad2",
+          "#eaeff7"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline Grey",
+        "canonical": "oklch(84.9% 0.010 252.8)",
+        "tonalRamp": [
+          "#090b0e",
+          "#232528",
+          "#3f4246",
+          "#5e6266",
+          "#7f8387",
+          "#a1a5ab",
+          "#c5cad0",
+          "#eaeff5"
+        ]
+      },
+      "board": {
+        "role": "neutral",
+        "displayName": "Board Black",
+        "canonical": "oklch(18.6% 0.004 264.5)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#242527",
+          "#414244",
+          "#606163",
+          "#818284",
+          "#a4a5a7",
+          "#c8c9cb",
+          "#eeeef0"
+        ]
+      },
+      "board-rule": {
+        "role": "neutral",
+        "displayName": "Board Rule",
+        "canonical": "oklch(30.4% 0.008 255.6)",
+        "tonalRamp": [
+          "#090b0e",
+          "#222529",
+          "#3f4246",
+          "#5e6165",
+          "#808386",
+          "#a2a5a9",
+          "#c7c9cd",
+          "#eceff2"
+        ]
+      },
+      "board-meta": {
+        "role": "neutral",
+        "displayName": "Board Caption",
+        "canonical": "oklch(84.7% 0.009 258.3)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232528",
+          "#404246",
+          "#5f6165",
+          "#7f8287",
+          "#a2a5ab",
+          "#c5c9cf",
+          "#ebeff5"
+        ]
+      },
+      "led": {
+        "role": "primary",
+        "displayName": "Departure Amber",
+        "canonical": "oklch(81.7% 0.167 76.5)",
+        "tonalRamp": [
+          "#200000",
+          "#411800",
+          "#653500",
+          "#8b5300",
+          "#b27300",
+          "#dc9500",
+          "#ffb92c",
+          "#ffe06c"
+        ]
+      },
+      "led-text": {
+        "role": "primary",
+        "displayName": "Warm Board Text",
+        "canonical": "oklch(88.5% 0.118 82.9)",
+        "tonalRamp": [
+          "#180600",
+          "#362000",
+          "#573d00",
+          "#7a5c19",
+          "#9f7c35",
+          "#c59f51",
+          "#edc26e",
+          "#ffe894"
+        ]
+      },
+      "route": {
+        "role": "secondary",
+        "displayName": "Route Red",
+        "canonical": "oklch(56.5% 0.206 29.2)",
+        "tonalRamp": [
+          "#350000",
+          "#5f0000",
+          "#8a0000",
+          "#b70b06",
+          "#e13f31",
+          "#ff6e5c",
+          "#ff9986",
+          "#ffc4b0"
+        ]
+      },
+      "route-ink": {
+        "role": "secondary",
+        "displayName": "Route Red Ink",
+        "canonical": "oklch(49.8% 0.182 28.9)",
+        "tonalRamp": [
+          "#330000",
+          "#5b0000",
+          "#850000",
+          "#b12019",
+          "#d55043",
+          "#f87a6a",
+          "#ffa392",
+          "#ffccbb"
+        ]
+      },
+      "go": {
+        "role": "tertiary",
+        "displayName": "Signal Green",
+        "canonical": "oklch(51.4% 0.115 155.1)",
+        "tonalRamp": [
+          "#001400",
+          "#00310d",
+          "#005127",
+          "#157344",
+          "#459565",
+          "#6fb889",
+          "#98dcaf",
+          "#c1ffd6"
+        ]
+      },
+      "mid": {
+        "role": "tertiary",
+        "displayName": "Signal Ochre",
+        "canonical": "oklch(60.6% 0.136 65.3)",
+        "tonalRamp": [
+          "#230000",
+          "#461200",
+          "#6a3000",
+          "#904e00",
+          "#b86e01",
+          "#db9346",
+          "#feb974",
+          "#ffe0a0"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Name plate of a restaurant or dish."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heads on the sheet."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Menu section labels, map card names, form legends, primary button text."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Walking minutes, prices, stat values, score plate numbers; always tabular."
+      },
+      "led-head": {
+        "displayName": "LED Head",
+        "purpose": "Board title, clock and menu strip title; uppercase, board only."
+      },
+      "led-row": {
+        "displayName": "LED Row",
+        "purpose": "Board row names, prices and minutes; board only."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text and comments."
+      },
+      "body-strong": {
+        "displayName": "Body Strong",
+        "purpose": "Place names in list rows, dish names in the menu."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Stat captions, form labels, buttons."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sheet",
+        "value": "0 1px 2px rgb(0 0 0 / 0.12), 0 6px 24px rgb(0 0 0 / 0.06)",
+        "purpose": "Menu timetable and dish header sheets lifted off the frame."
+      },
+      {
+        "name": "review-sheet",
+        "value": "0 1px 2px rgb(0 0 0 / 0.12), 0 4px 16px rgb(0 0 0 / 0.05)",
+        "purpose": "Review tiles in a grid."
+      },
+      {
+        "name": "map-card",
+        "value": "0 2px 4px rgb(0 0 0 / 0.2), 0 10px 30px rgb(0 0 0 / 0.18)",
+        "purpose": "Selected place card floating over the map."
+      },
+      {
+        "name": "header",
+        "value": "0 1px 0 var(--ink), 0 2px 10px rgb(0 0 0 / 0.08)",
+        "purpose": "Sticky header: ink hairline plus faint lift."
+      },
+      {
+        "name": "led-glow",
+        "value": "text-shadow: 0 0 6px rgb(255 178 26 / 0.35)",
+        "purpose": "Glow on every Doto glyph."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 3px solid var(--led); outline-offset: 2px; box-shadow: 0 0 0 5px var(--ink)",
+        "purpose": "Global focus-visible ring, legible on board and sheet."
+      }
+    ],
+    "motion": [
+      {
+        "name": "board-in",
+        "value": "520ms cubic-bezier(0.16, 1, 0.3, 1), clip-path inset(0 100% 0 0) to inset(0), opacity 0.4 to 1",
+        "purpose": "LED board rows write in once on load; only under prefers-reduced-motion: no-preference."
+      },
+      {
+        "name": "board-stagger",
+        "value": "calc(var(--i) * 70ms + 120ms)",
+        "purpose": "Row delay for board-in."
+      },
+      {
+        "name": "state-color",
+        "value": "150ms",
+        "purpose": "Color transition of rating buttons."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink sign plate with an amber pictogram inset; main action such as walking route or rating a dish.",
+      "html": "<button class=\"ds-btn-primary\"><span class=\"ds-btn-inset\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"square\" stroke-linejoin=\"miter\" aria-hidden=\"true\"><circle cx=\"13\" cy=\"4.5\" r=\"1.8\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M10 21l2.2-6.5L15 17v4M8 11.5l2.5-3.5h3l2.5 3.5 2.5 1M12.5 8l-.8 6.5M9.5 12.5 7 21\"/></svg></span>Trasa pěšky</button>",
+      "css": ":host{--sheet:#ffffff;--frame:#e9ecef;--frame-2:#dde1e5;--ink:#141518;--ink-2:#4a4f57;--ink-3:#6b717a;--rule:#c9ced4;--board:#121315;--led:#ffb21a;--led-text:#ffd27a;--route:#d42a1f;--go:#1d7a49;--mid:#b86e00;} .ds-btn-primary{display:inline-flex;align-items:center;gap:12px;background:var(--ink);color:var(--sheet);border:0;border-radius:0;padding:4px 16px 4px 4px;font-family:'Barlow',sans-serif;font-weight:600;font-size:1rem;cursor:pointer;transition:background 150ms;} .ds-btn-inset{display:grid;place-items:center;width:36px;height:36px;background:var(--led);color:var(--ink);} .ds-btn-primary:hover{background:#2a2c30;} .ds-btn-primary:focus-visible{outline:3px solid var(--led);outline-offset:2px;box-shadow:0 0 0 5px var(--ink);}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "2px ink outline action with a small ink arrow inset; per-dish rate action in the menu.",
+      "html": "<a href=\"#\" class=\"ds-btn-outline\"><span class=\"ds-btn-outline-inset\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"square\" stroke-linejoin=\"miter\" aria-hidden=\"true\"><path d=\"M4 12h14M12 5l7 7-7 7\"/></svg></span>Ohodnotit</a>",
+      "css": ":host{--sheet:#ffffff;--frame:#e9ecef;--frame-2:#dde1e5;--ink:#141518;--ink-2:#4a4f57;--ink-3:#6b717a;--rule:#c9ced4;--board:#121315;--led:#ffb21a;--led-text:#ffd27a;--route:#d42a1f;--go:#1d7a49;--mid:#b86e00;} .ds-btn-outline{display:inline-flex;align-items:center;border:2px solid var(--ink);border-radius:0;padding:2px 12px 2px 2px;background:var(--sheet);color:var(--ink);font-family:'Barlow',sans-serif;font-weight:600;font-size:0.875rem;text-decoration:none;} .ds-btn-outline-inset{display:grid;place-items:center;width:28px;height:28px;margin-right:8px;background:var(--ink);color:var(--sheet);} .ds-btn-outline-inset svg{width:16px;height:16px;} .ds-btn-outline:hover{background:var(--ink);color:var(--sheet);} .ds-btn-outline:focus-visible{outline:3px solid var(--led);outline-offset:2px;box-shadow:0 0 0 5px var(--ink);}"
+    },
+    {
+      "name": "Menu Toggle",
+      "kind": "chip",
+      "refersTo": "toggle-on",
+      "description": "Square toggle filtering to places with a menu today; Route Red when on.",
+      "html": "<button class=\"ds-toggle\" aria-pressed=\"true\">Jen s menu</button> <button class=\"ds-toggle\" aria-pressed=\"false\">Jen s menu</button>",
+      "css": ":host{--sheet:#ffffff;--frame:#e9ecef;--frame-2:#dde1e5;--ink:#141518;--ink-2:#4a4f57;--ink-3:#6b717a;--rule:#c9ced4;--board:#121315;--led:#ffb21a;--led-text:#ffd27a;--route:#d42a1f;--go:#1d7a49;--mid:#b86e00;} .ds-toggle{border:1px solid rgb(20 21 24 / 0.4);border-radius:0;padding:8px 12px;background:var(--sheet);color:var(--ink);font-family:'Barlow',sans-serif;font-weight:600;font-size:0.95rem;cursor:pointer;} .ds-toggle:hover{border-color:var(--ink);} .ds-toggle[aria-pressed=true]{background:var(--route);border-color:var(--route);color:var(--sheet);} .ds-toggle:focus-visible{outline:3px solid var(--led);outline-offset:2px;box-shadow:0 0 0 5px var(--ink);}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Square white field with a 40% ink hairline that goes solid on focus.",
+      "html": "<input class=\"ds-input\" placeholder=\"Hledat podnik\" aria-label=\"Hledat podnik\">",
+      "css": ":host{--sheet:#ffffff;--frame:#e9ecef;--frame-2:#dde1e5;--ink:#141518;--ink-2:#4a4f57;--ink-3:#6b717a;--rule:#c9ced4;--board:#121315;--led:#ffb21a;--led-text:#ffd27a;--route:#d42a1f;--go:#1d7a49;--mid:#b86e00;} .ds-input{width:100%;border:1px solid rgb(20 21 24 / 0.4);border-radius:0;background:var(--sheet);color:var(--ink);padding:10px 12px;font-family:'Barlow',sans-serif;font-size:1rem;outline:none;} .ds-input::placeholder{color:var(--ink-3);} .ds-input:focus{border-color:var(--ink);} .ds-input:focus-visible{outline:3px solid var(--led);outline-offset:2px;box-shadow:0 0 0 5px var(--ink);}"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "description": "White sticky header with Barlow Condensed wordmark and plain links that fill frame grey on hover.",
+      "html": "<header class=\"ds-nav\"><span class=\"ds-nav-mark\"><b>Obědy</b> <span>Olomouc</span></span><nav><a href=\"#\">Mapa</a><a href=\"#\">O projektu</a></nav></header>",
+      "css": ":host{--sheet:#ffffff;--frame:#e9ecef;--frame-2:#dde1e5;--ink:#141518;--ink-2:#4a4f57;--ink-3:#6b717a;--rule:#c9ced4;--board:#121315;--led:#ffb21a;--led-text:#ffd27a;--route:#d42a1f;--go:#1d7a49;--mid:#b86e00;} .ds-nav{display:flex;align-items:center;height:56px;padding:0 16px;background:var(--sheet);box-shadow:0 1px 0 var(--ink),0 2px 10px rgb(0 0 0 / 0.08);} .ds-nav-mark{font-family:'Barlow Condensed','Barlow',sans-serif;letter-spacing:-0.01em;font-size:1.375rem;line-height:1;} .ds-nav-mark b{font-weight:700;} .ds-nav-mark span{font-weight:600;color:var(--ink-2);} .ds-nav nav{margin-left:auto;display:flex;gap:4px;} .ds-nav a{padding:8px 10px;color:var(--ink);text-decoration:none;font-family:'Barlow',sans-serif;font-weight:500;font-size:0.95rem;} .ds-nav a:hover{background:var(--frame);} .ds-nav a:focus-visible{outline:3px solid var(--led);outline-offset:2px;box-shadow:0 0 0 5px var(--ink);}"
+    },
+    {
+      "name": "LED Departure Board",
+      "kind": "custom",
+      "refersTo": "led-board",
+      "description": "Flat dark board listing nearest places with menu today: name, price, walking minutes in amber dot matrix.",
+      "html": "<section class=\"ds-board\"><div class=\"ds-board-head\"><span class=\"ds-led ds-led-head\">DNES V POLEDNE</span><span class=\"ds-led ds-led-head\">11:42</span></div><p class=\"ds-board-cap\">31 podniků zveřejnilo polední menu.</p><ol><li><a href=\"#\"><span class=\"ds-led ds-name\">U Mořice</span><span class=\"ds-led ds-price\">139,-</span><span class=\"ds-led ds-min\">4 min</span></a></li><li><a href=\"#\"><span class=\"ds-led ds-name\">Hostinec Na Hradě</span><span class=\"ds-led ds-price\">155,-</span><span class=\"ds-led ds-min\">7 min</span></a></li></ol></section>",
+      "css": ":host{--sheet:#ffffff;--frame:#e9ecef;--frame-2:#dde1e5;--ink:#141518;--ink-2:#4a4f57;--ink-3:#6b717a;--rule:#c9ced4;--board:#121315;--led:#ffb21a;--led-text:#ffd27a;--route:#d42a1f;--go:#1d7a49;--mid:#b86e00;} .ds-board{background:var(--board);color:var(--led-text);} .ds-board-head{display:flex;justify-content:space-between;align-items:baseline;padding:16px 16px 0;} .ds-led{font-family:'Doto',ui-monospace,monospace;font-variation-settings:'ROND' 100;font-weight:900;letter-spacing:0.01em;color:var(--led);text-shadow:0 0 6px rgb(255 178 26 / 0.35);font-variant-numeric:tabular-nums;} .ds-led-head{font-size:1.6rem;line-height:1;text-transform:uppercase;} .ds-board-cap{margin:8px 0 0;padding:0 16px;font-family:'Barlow',sans-serif;font-size:0.85rem;color:#c9cdd3;} .ds-board ol{list-style:none;margin:12px 0 0;padding:0;border-top:1px solid #2c2f33;} .ds-board li{border-bottom:1px solid #2c2f33;} .ds-board a{display:grid;grid-template-columns:1fr auto 4.2rem;gap:12px;align-items:baseline;padding:10px 16px;text-decoration:none;} .ds-board a:hover{background:#1f2124;} .ds-board a:focus-visible{outline:3px solid var(--led);outline-offset:2px;box-shadow:0 0 0 5px var(--ink);} .ds-name{font-size:1.15rem;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;} .ds-price{font-size:1.05rem;opacity:0.8;} .ds-min{font-size:1.15rem;text-align:right;}"
+    },
+    {
+      "name": "Timetable Row",
+      "kind": "custom",
+      "refersTo": "timetable-row",
+      "description": "List row: walking minutes as a big condensed numeral, red route mark for menu today, score plate, arrow tile.",
+      "html": "<a href=\"#\" class=\"ds-row\"><span class=\"ds-row-min\"><span class=\"ds-num\">4</span><span class=\"ds-unit\">min</span></span><span class=\"ds-row-body\"><span class=\"ds-row-name\"><span class=\"ds-route\" aria-hidden=\"true\"></span>U Mořice</span><span class=\"ds-row-meta\">Restaurace · menu od 139 Kč</span></span><span class=\"ds-tile\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"square\" stroke-linejoin=\"miter\" aria-hidden=\"true\"><path d=\"M4 12h14M12 5l7 7-7 7\"/></svg></span></a>",
+      "css": ":host{--sheet:#ffffff;--frame:#e9ecef;--frame-2:#dde1e5;--ink:#141518;--ink-2:#4a4f57;--ink-3:#6b717a;--rule:#c9ced4;--board:#121315;--led:#ffb21a;--led-text:#ffd27a;--route:#d42a1f;--go:#1d7a49;--mid:#b86e00;} .ds-row{display:grid;grid-template-columns:3.25rem 1fr auto;gap:12px;align-items:center;padding:12px 12px 12px 16px;background:var(--sheet);color:var(--ink);text-decoration:none;border-top:1px solid var(--rule);font-family:'Barlow',sans-serif;} .ds-row:hover{background:var(--frame);} .ds-row:focus-visible{outline:3px solid var(--led);outline-offset:2px;box-shadow:0 0 0 5px var(--ink);} .ds-row-min{text-align:right;line-height:1;} .ds-num{font-family:'Barlow Condensed','Barlow',sans-serif;letter-spacing:-0.01em;font-size:1.75rem;font-weight:700;font-variant-numeric:tabular-nums;} .ds-unit{display:block;font-size:0.7rem;font-weight:600;color:var(--ink-3);} .ds-row-name{display:flex;align-items:center;gap:8px;font-size:1.05rem;font-weight:600;} .ds-route{width:14px;height:14px;background:var(--route);flex-shrink:0;} .ds-row-meta{display:block;padding-left:22px;font-size:0.875rem;color:var(--ink-2);} .ds-tile{display:grid;place-items:center;width:32px;height:32px;background:var(--frame-2);color:var(--ink);} .ds-tile svg{width:16px;height:16px;} .ds-row:hover .ds-tile{background:var(--ink);color:var(--sheet);}"
+    },
+    {
+      "name": "Score Plate",
+      "kind": "custom",
+      "refersTo": "score-plate-good",
+      "description": "Average score as a condensed numeral on a green, ochre or red plate with five segments; replaces star glyphs.",
+      "html": "<span class=\"ds-score\" role=\"img\" aria-label=\"4,3 z 5, 12 hodnocení\"><span class=\"ds-plate ds-good\"><span class=\"ds-plate-num\">4,3</span><span class=\"ds-segs\"><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i></i></span></span><span class=\"ds-count\">12×</span></span> <span class=\"ds-score\"><span class=\"ds-plate ds-mid\"><span class=\"ds-plate-num\">3,2</span><span class=\"ds-segs\"><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i><i></i><i></i></span></span></span> <span class=\"ds-score\"><span class=\"ds-plate ds-poor\"><span class=\"ds-plate-num\">2,1</span><span class=\"ds-segs\"><i class=\"on\"></i><i class=\"on\"></i><i></i><i></i><i></i></span></span></span>",
+      "css": ":host{--sheet:#ffffff;--frame:#e9ecef;--frame-2:#dde1e5;--ink:#141518;--ink-2:#4a4f57;--ink-3:#6b717a;--rule:#c9ced4;--board:#121315;--led:#ffb21a;--led-text:#ffd27a;--route:#d42a1f;--go:#1d7a49;--mid:#b86e00;} .ds-score{display:inline-flex;align-items:center;gap:8px;white-space:nowrap;} .ds-plate{display:inline-flex;flex-direction:column;padding:2px 6px 4px;color:var(--sheet);} .ds-good{background:var(--go);} .ds-mid{background:var(--mid);} .ds-poor{background:var(--route);} .ds-plate-num{font-family:'Barlow Condensed','Barlow',sans-serif;letter-spacing:-0.01em;font-weight:700;font-size:1rem;line-height:1;font-variant-numeric:tabular-nums;} .ds-segs{display:flex;gap:2px;height:4px;margin-top:4px;} .ds-segs i{flex:1;background:rgb(255 255 255 / 0.3);} .ds-segs i.on{background:var(--sheet);} .ds-count{font-family:'Barlow',sans-serif;font-size:0.75rem;color:var(--ink-2);font-variant-numeric:tabular-nums;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Noon Departure Board",
+    "overview": "The whole product is an Olomouc tram stop at twelve o'clock. A dark LED board lists the nearest places serving lunch today with walking minutes and the cheapest price; below it hangs a white printed timetable where every place is a row and every dish is a departure. Lunch is a destination you walk to, the menu is the noon timetable, and the red route mark means \"this line runs today\".\n\nThe ground is light on purpose: people read this outdoors on a phone around 11:30, so the printed sheet (white, black ink, hairline rules) carries most of the reading and the dark board is a concentrated band, never the page. Density is timetable density: tight rows, tabular numerals, numbers set large and condensed so minutes and prices read at a glance. Everything is square. Corners, map pins, pictogram insets, buttons and the score plate share one hard-edged geometry taken from stop signage.\n\nThe system refuses the delivery-app photo card feed (rounded cards, hero food photos, star glyphs) and the cream bistro menu (warm paper, script or serif display). Photos appear only as user evidence inside reviews.",
+    "keyCharacteristics": [
+      "Two materials only: the dark LED board and the white printed sheet, mounted on a pale powder-coated frame.",
+      "Amber Doto dot matrix for board text, black Barlow Condensed for sign lettering, Barlow for running text.",
+      "Red square route mark (14px) flags places with a menu today; it is the one red signal on a list.",
+      "Zero radius everywhere, including map pins and popups.",
+      "Hairline rules divide rows; heavy 2px ink rules close a header or section.",
+      "Numbers lead: walking minutes, prices and scores are the largest type in their row."
+    ],
+    "rules": [
+      {
+        "name": "The Red Means Running Rule",
+        "body": "Route Red marks a place or line that has a menu today, or a poor score. A red element that means neither is wrong.",
+        "section": "colors"
+      },
+      {
+        "name": "The Amber Stays On Black Rule",
+        "body": "Departure Amber is a light emitted from the board. Use it on board, on ink insets and as the focus ring; never as text or fill on the white sheet.",
+        "section": "colors"
+      },
+      {
+        "name": "The Full Weight Board Rule",
+        "body": "Doto is always weight 900 with ROND 100 and a soft amber glow. Thin dot weights vanish at board sizes.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Numbers Rule",
+        "body": "Every minute count, price, score and date sits in tabular numerals so columns align like a timetable.",
+        "section": "typography"
+      },
+      {
+        "name": "The En Dash Blank Rule",
+        "body": "A missing value (no score yet, no price) is an en dash (–) in the same condensed numeral style and size as the value it replaces, with an aria-label stating what is missing.",
+        "section": "typography"
+      },
+      {
+        "name": "The Paper Not Plastic Rule",
+        "body": "A shadow only says \"this sheet is lifted off the frame\". Nothing on the sheet itself gets a shadow.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Square Stop Rule",
+        "body": "Pins, insets, marks and plates are squares. A circle appears only inside an icon drawing (a head, a lens).",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** keep the page on the light sheet and frame; the LED board is a band, never a full dark theme.",
+      "**Do** set every minute, price, score and date in tabular numerals, numbers larger than their labels.",
+      "**Do** mark \"menu today\" with the 14px square in Route Red, and use red for nothing else except poor scores and errors.",
+      "**Do** lead or end actions with a square pictogram inset (ink on white, or amber with an ink icon on ink).",
+      "**Do** write empty values as an en dash in the numeral style, with an aria-label.",
+      "**Do** use Doto at weight 900, ROND 100, with the amber glow, and only on Board Black.",
+      "**Do** draw icons as 24px-grid SVG strokes at 2.4px with square caps and miter joins."
+    ],
+    "donts": [
+      "**Don't** round any corner: no rounded cards, buttons, pills, pins or popups.",
+      "**Don't** draw circular map pins; stops are squares.",
+      "**Don't** put an unlit LED dot grid or other texture behind board text; the board is flat.",
+      "**Don't** add kicker or eyebrow labels above headings; the heading and the numbers carry the hierarchy.",
+      "**Don't** build delivery-app photo card feeds or hero food imagery; photos are review evidence only.",
+      "**Don't** use star glyphs for ratings; use the score plate.",
+      "**Don't** use warm cream paper, serif or script display type; that is the bistro menu this system refuses.",
+      "**Don't** use hard offset shadows or put shadows on elements inside a sheet."
+    ]
+  }
+}

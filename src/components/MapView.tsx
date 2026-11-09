@@ -16,6 +16,20 @@ if (typeof window !== "undefined") {
   maplibregl.setWorkerUrl(new URL("/maplibre-gl-worker.mjs", window.location.origin).href);
 }
 
+/** Square stop marker drawn once into an RGBA bitmap for a symbol layer. */
+function stopSquare(px: number, fill: string, ring: string, ringPx: number, ratio = 2) {
+  const n = px * ratio;
+  const c = document.createElement("canvas");
+  c.width = c.height = n;
+  const g = c.getContext("2d")!;
+  g.fillStyle = ring;
+  g.fillRect(0, 0, n, n);
+  const r = ringPx * ratio;
+  g.fillStyle = fill;
+  g.fillRect(r, r, n - 2 * r, n - 2 * r);
+  return { width: n, height: n, data: new Uint8Array(g.getImageData(0, 0, n, n).data.buffer) };
+}
+
 function toGeoJSON(pins: RestaurantPin[]): GeoJSON.FeatureCollection<GeoJSON.Point> {
   return {
     type: "FeatureCollection",
@@ -73,44 +87,36 @@ export default function MapView({ pins, selected, onSelect, focus, className }: 
 
     m.on("load", () => {
       m.addSource("pins", { type: "geojson", data: toGeoJSON(pins) });
-      // places without menu today: small muted dots
+      // square stops: red ring = menu today, grey = no menu, amber frame = selected
+      m.addImage("stop-menu", stopSquare(22, "#141518", "#d42a1f", 4), { pixelRatio: 2 });
+      m.addImage("stop-other", stopSquare(12, "#7b818a", "#ffffff", 1.5), { pixelRatio: 2 });
+      m.addImage("stop-selected", stopSquare(36, "rgba(255,178,26,0.35)", "#141518", 3), { pixelRatio: 2 });
+      const size = (lo: number, hi: number) =>
+        ["interpolate", ["linear"], ["zoom"], 12, lo, 16, hi] as maplibregl.ExpressionSpecification;
       m.addLayer({
         id: "pins-other",
-        type: "circle",
+        type: "symbol",
         source: "pins",
         filter: ["==", ["get", "menu"], 0],
-        paint: {
-          "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, 2.5, 16, 6],
-          "circle-color": ["case", [">", ["get", "n"], 0], "#3f7d4e", "#9b8f82"],
-          "circle-opacity": 0.75,
-          "circle-stroke-width": 1,
-          "circle-stroke-color": "#faf6ef",
-        },
-      });
-      // places with lunch menu today: tomato, colored by rating when rated
-      m.addLayer({
-        id: "pins-menu",
-        type: "circle",
-        source: "pins",
-        filter: ["==", ["get", "menu"], 1],
-        paint: {
-          "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, 5, 16, 11],
-          "circle-color": [
-            "case",
-            ["==", ["get", "n"], 0],
-            "#c8412b",
-            ["interpolate", ["linear"], ["get", "rating"], 1, "#c8412b", 3, "#d99a1e", 5, "#3f7d4e"],
-          ],
-          "circle-stroke-width": 2,
-          "circle-stroke-color": "#faf6ef",
-        },
+        layout: { "icon-image": "stop-other", "icon-size": size(0.5, 1), "icon-allow-overlap": true },
       });
       m.addLayer({
         id: "pins-selected",
-        type: "circle",
+        type: "symbol",
         source: "pins",
         filter: ["==", ["get", "slug"], ""],
-        paint: { "circle-radius": 16, "circle-color": "transparent", "circle-stroke-width": 3, "circle-stroke-color": "#221d17" },
+        layout: { "icon-image": "stop-selected", "icon-allow-overlap": true, "icon-ignore-placement": true },
+      });
+      m.addLayer({
+        id: "pins-menu",
+        type: "symbol",
+        source: "pins",
+        filter: ["==", ["get", "menu"], 1],
+        layout: {
+          "icon-image": "stop-menu",
+          "icon-size": size(0.55, 1),
+          "icon-allow-overlap": true,
+                  },
       });
       m.addLayer({
         id: "pins-label",
@@ -120,13 +126,13 @@ export default function MapView({ pins, selected, onSelect, focus, className }: 
         minzoom: 14.5,
         layout: {
           "text-field": ["get", "name"],
-          "text-size": 12,
-          "text-offset": [0, 1.3],
+          "text-size": 13,
+          "text-offset": [0, 1.2],
           "text-anchor": "top",
-          "text-font": ["Noto Sans Regular"],
+          "text-font": ["Noto Sans Bold"],
           "text-optional": true,
         },
-        paint: { "text-color": "#221d17", "text-halo-color": "#faf6ef", "text-halo-width": 1.5 },
+        paint: { "text-color": "#141518", "text-halo-color": "#ffffff", "text-halo-width": 2 },
       });
 
       for (const layer of ["pins-menu", "pins-other"]) {

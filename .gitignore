@@ -45,3 +45,8 @@ next-env.d.ts
 /public/maplibre-gl-worker.mjs
 .venv/
 __pycache__/
+
+# design tooling
+/.codex/
+/.impeccable/*
+!/.impeccable/design.json

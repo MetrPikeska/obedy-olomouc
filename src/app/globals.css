@@ -1,51 +1,127 @@
 @import "tailwindcss";
 
+/*
+ * Polední odjezdy: a tram stop in Olomouc at noon.
+ * Printed timetable sheet (white, black ink, hairline rules) under a dark
+ * LED departure board (amber dot matrix). Red marks a line that runs today.
+ * Light ground on purpose: people read this outdoors on a phone at 11:30.
+ */
 :root {
-  --paper: #faf6ef;
-  --paper-2: #f2ebdf;
-  --ink: #221d17;
-  --ink-2: #6b6157;
-  --line: #e2d8c8;
-  --tomato: #c8412b;
-  --tomato-2: #a8331f;
-  --herb: #3f7d4e;
-  --mustard: #d99a1e;
+  --sheet: #ffffff;
+  --frame: #e9ecef; /* powder-coated stop frame */
+  --frame-2: #dde1e5;
+  --ink: #141518;
+  --ink-2: #4a4f57; /* 8.1:1 on sheet */
+  --ink-3: #6b717a; /* 4.8:1 on sheet, small meta only */
+  --rule: #c9ced4;
+  --rule-strong: #141518;
+
+  --board: #121315;
+  --board-2: #1c1e21;
+  --led: #ffb21a;
+  --led-dim: #4a3a14;
+  --led-text: #ffd27a;
+
+  --route: #d42a1f; /* line runs today: menu published */
+  --route-ink: #b3221a;
+  --go: #1d7a49;
+  --go-ink: #17633b;
+  --mid: #b86e00;
 }
 
 @theme inline {
-  --color-paper: var(--paper);
-  --color-paper-2: var(--paper-2);
+  --color-sheet: var(--sheet);
+  --color-frame: var(--frame);
+  --color-frame-2: var(--frame-2);
   --color-ink: var(--ink);
   --color-ink-2: var(--ink-2);
-  --color-line: var(--line);
-  --color-tomato: var(--tomato);
-  --color-tomato-2: var(--tomato-2);
-  --color-herb: var(--herb);
-  --color-mustard: var(--mustard);
-  --font-sans: var(--font-inter);
-  --font-display: var(--font-fraunces);
+  --color-ink-3: var(--ink-3);
+  --color-rule: var(--rule);
+  --color-board: var(--board);
+  --color-board-2: var(--board-2);
+  --color-led: var(--led);
+  --color-led-dim: var(--led-dim);
+  --color-led-text: var(--led-text);
+  --color-route: var(--route);
+  --color-route-ink: var(--route-ink);
+  --color-go: var(--go);
+  --color-go-ink: var(--go-ink);
+  --color-mid: var(--mid);
+  --font-sans: var(--font-barlow), system-ui, sans-serif;
+  --font-sign: var(--font-barlow-cond), var(--font-barlow), sans-serif;
+  --font-led: var(--font-doto), ui-monospace, monospace;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: var(--paper);
+  background: var(--frame);
   color: var(--ink);
+  font-feature-settings: "tnum" 0;
 }
 
-.font-display {
-  font-family: var(--font-fraunces), Georgia, serif;
-  font-optical-sizing: auto;
+.tnum {
+  font-variant-numeric: tabular-nums;
 }
 
-/* dotted leader between dish name and price, like a printed menu */
-.leader {
-  flex: 1;
-  border-bottom: 2px dotted var(--line);
-  margin: 0 0.5rem 0.3rem;
-  min-width: 1rem;
+/* sign lettering: condensed, tight, upright */
+.font-sign {
+  font-family: var(--font-barlow-cond), var(--font-barlow), sans-serif;
+  letter-spacing: -0.01em;
+}
+
+/* LED dot-matrix board */
+.led {
+  font-family: var(--font-doto), ui-monospace, monospace;
+  font-variation-settings: "ROND" 100;
+  font-weight: 900; /* thin dot weights vanish at board sizes */
+  letter-spacing: 0.01em;
+  color: var(--led);
+  text-shadow: 0 0 6px rgb(255 178 26 / 0.35);
+  font-variant-numeric: tabular-nums;
+}
+
+.board {
+  background-color: var(--board);
+}
+
+/* the board writes itself once on load, row by row */
+@media (prefers-reduced-motion: no-preference) {
+  .board-row {
+    animation: board-in 520ms cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation-delay: calc(var(--i, 0) * 70ms + 120ms);
+  }
+}
+@keyframes board-in {
+  from {
+    clip-path: inset(0 100% 0 0);
+    opacity: 0.4;
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
+}
+
+/* hairline timetable rule between rows */
+.rows > * + * {
+  border-top: 1px solid var(--rule);
+}
+
+:focus-visible {
+  outline: 3px solid var(--led);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 5px var(--ink);
 }
 
 .maplibregl-popup-content {
-  border-radius: 10px;
+  border-radius: 0;
   padding: 10px 12px;
-  font-family: var(--font-inter), sans-serif;
+  font-family: var(--font-barlow), sans-serif;
+}
+.maplibregl-ctrl-group {
+  border-radius: 2px !important;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.25), 0 2px 8px rgb(0 0 0 / 0.12) !important;
 }

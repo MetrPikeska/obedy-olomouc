@@ -8,9 +8,13 @@ import { reviewCreated } from "@/app/actions";
 import { TURNSTILE_SITE_KEY } from "@/lib/config";
 import { shrinkImage, supabaseBrowser } from "@/lib/supabase-browser";
 
+import { Icon, scoreTone } from "./sign";
+
 type Props = { dish: { id: number; slug: string; restaurant_id: number; restaurant_slug: string } };
 
 const NICK_KEY = "obedy-nickname";
+const RATING_WORD = ["", "hrozné", "slabé", "ujde", "dobré", "výborné"];
+const FIELD = "w-full border border-ink/40 bg-sheet px-3 py-2.5 text-base outline-none placeholder:text-ink-3 focus:border-ink";
 
 export function ReviewForm({ dish }: Props) {
   const router = useRouter();
@@ -112,36 +116,50 @@ export function ReviewForm({ dish }: Props) {
   }
 
   return (
-    <form onSubmit={submit} className="space-y-6">
+    <form onSubmit={submit} className="space-y-7">
       <fieldset>
-        <legend className="mb-2 text-sm font-medium">Hodnocení</legend>
-        <div className="flex gap-1" role="radiogroup" aria-label="Počet hvězdiček">
-          {[1, 2, 3, 4, 5].map((n) => (
-            <button
-              key={n}
-              type="button"
-              role="radio"
-              aria-checked={rating === n}
-              aria-label={`${n} z 5`}
-              onClick={() => setRating(n)}
-              className={`text-4xl leading-none transition ${n <= rating ? "text-mustard" : "text-line hover:text-mustard/60"}`}
-            >
-              ★
-            </button>
-          ))}
+        <legend className="mb-2 font-sign text-xl font-bold">
+          Hodnocení{rating > 0 && <span className="font-semibold text-ink-2">: {RATING_WORD[rating]}</span>}
+        </legend>
+        <div className="grid grid-cols-5 gap-1.5" role="radiogroup" aria-label="Hodnocení od 1 do 5, 5 je nejlepší">
+          {[1, 2, 3, 4, 5].map((n) => {
+            const on = n <= rating;
+            return (
+              <button
+                key={n}
+                type="button"
+                role="radio"
+                aria-checked={rating === n}
+                aria-label={`${n} z 5, ${RATING_WORD[n]}`}
+                onClick={() => setRating(n)}
+                className={`flex h-16 flex-col items-center justify-center font-sign text-3xl font-bold leading-none tnum transition-colors duration-150 ${
+                  on ? `${scoreTone(rating)} text-sheet` : "border-2 border-ink/25 bg-sheet text-ink-2 hover:border-ink"
+                }`}
+              >
+                {n}
+              </button>
+            );
+          })}
+        </div>
+        <div className="mt-1.5 flex justify-between text-xs text-ink-3">
+          <span>1 hrozné</span>
+          <span>5 výborné</span>
         </div>
       </fieldset>
 
       <div>
-        <span className="mb-2 block text-sm font-medium">Fotka jídla</span>
-        <label className="flex cursor-pointer flex-col items-center justify-center gap-2 overflow-hidden rounded-2xl border-2 border-dashed border-line bg-white/60 p-4 text-sm text-ink-2 hover:border-ink-2">
+        <span className="mb-2 block font-sign text-xl font-bold">Fotka jídla</span>
+        <label className="flex cursor-pointer flex-col items-center justify-center gap-2 border-2 border-dashed border-ink/35 bg-sheet p-5 text-ink-2 hover:border-ink">
           {preview ? (
             // eslint-disable-next-line @next/next/no-img-element
-            <img src={preview} alt="Náhled fotky" className="max-h-64 rounded-lg object-contain" />
+            <img src={preview} alt="Náhled fotky" className="max-h-72 object-contain" />
           ) : (
             <>
-              <span className="text-3xl" aria-hidden>📷</span>
-              <span>Vyfotit nebo vybrat fotku</span>
+              <span className="grid size-12 place-items-center bg-ink text-sheet">
+                <Icon name="camera" className="size-6" />
+              </span>
+              <span className="font-semibold text-ink">Vyfotit nebo vybrat fotku</span>
+              <span className="text-sm">nepovinné, zmenší se v telefonu</span>
             </>
           )}
           <input
@@ -154,27 +172,27 @@ export function ReviewForm({ dish }: Props) {
         </label>
       </div>
 
-      <div className="grid grid-cols-2 gap-4">
-        <label className="text-sm">
-          <span className="mb-1 block font-medium">Zaplatil jsem (Kč)</span>
+      <div className="grid gap-5 sm:grid-cols-2">
+        <label>
+          <span className="mb-1.5 block font-semibold">Zaplatil jsem (Kč)</span>
           <input
             inputMode="numeric"
             pattern="[0-9]*"
             value={price}
             onChange={(e) => setPrice(e.target.value.replace(/\D/g, ""))}
-            className="w-full rounded-lg border border-line bg-white px-3 py-2"
+            className={`${FIELD} tnum`}
           />
         </label>
-        <fieldset className="text-sm">
-          <legend className="mb-1 font-medium">Porce</legend>
-          <div className="flex overflow-hidden rounded-lg border border-line">
+        <fieldset>
+          <legend className="mb-1.5 font-semibold">Porce</legend>
+          <div className="grid grid-cols-3 gap-px border border-ink/40 bg-ink/40">
             {["malá", "akorát", "velká"].map((label, i) => (
               <button
                 key={label}
                 type="button"
                 aria-pressed={portion === i + 1}
                 onClick={() => setPortion(portion === i + 1 ? null : i + 1)}
-                className={`flex-1 px-2 py-2 ${portion === i + 1 ? "bg-ink text-paper" : "bg-white"}`}
+                className={`px-2 py-2.5 font-semibold ${portion === i + 1 ? "bg-ink text-sheet" : "bg-sheet hover:bg-frame"}`}
               >
                 {label}
               </button>
@@ -183,43 +201,55 @@ export function ReviewForm({ dish }: Props) {
         </fieldset>
       </div>
 
-      <label className="block text-sm">
-        <span className="mb-1 block font-medium">Komentář</span>
+      <label className="block">
+        <span className="mb-1.5 block font-semibold">Komentář</span>
         <textarea
           value={comment}
           onChange={(e) => setComment(e.target.value)}
           maxLength={1000}
           rows={3}
           placeholder="Omáčka výborná, knedlíky trochu tvrdé…"
-          className="w-full rounded-lg border border-line bg-white px-3 py-2"
+          className={FIELD}
         />
       </label>
 
-      <label className="block text-sm">
-        <span className="mb-1 block font-medium">Přezdívka (nepovinné)</span>
-        <input
-          ref={nickRef}
-          maxLength={32}
-          className="w-full rounded-lg border border-line bg-white px-3 py-2"
-        />
+      <label className="block">
+        <span className="mb-1.5 block font-semibold">
+          Přezdívka <span className="font-normal text-ink-3">(nepovinné)</span>
+        </span>
+        <input ref={nickRef} maxLength={32} className={FIELD} />
       </label>
 
       {needCaptcha && (
         <Turnstile siteKey={TURNSTILE_SITE_KEY} onSuccess={setCaptcha} options={{ language: "cs", size: "flexible" }} />
       )}
 
-      {status === "error" && <p className="rounded-lg bg-tomato/10 p-3 text-sm text-tomato-2">{error}</p>}
+      {status === "error" && (
+        <p role="alert" className="border-2 border-route bg-sheet p-3 font-semibold text-route-ink">
+          {error}
+        </p>
+      )}
 
-      <button
-        type="submit"
-        disabled={!canSubmit}
-        className="w-full rounded-xl bg-tomato py-3 text-lg font-semibold text-paper disabled:opacity-40"
-      >
-        {status === "saving" ? "Ukládám…" : "Odeslat hodnocení"}
-      </button>
-      <p className="text-xs text-ink-2">
-        Bez registrace: prohlížeč dostane anonymní účet. Jedno jídlo můžeš hodnotit jednou denně.
-      </p>
+      <div>
+        <button
+          type="submit"
+          disabled={!canSubmit}
+          className="flex w-full items-center justify-between gap-4 bg-ink py-2 pr-2 pl-5 font-sign text-2xl font-bold text-sheet hover:bg-[#2a2c30] disabled:cursor-not-allowed disabled:bg-ink/35"
+        >
+          {status === "saving" ? "Ukládám…" : "Odeslat hodnocení"}
+          <span className={`grid size-11 place-items-center ${canSubmit ? "bg-led text-ink" : "bg-sheet/25 text-sheet"}`}>
+            <Icon name="arrow-right" className="size-6" />
+          </span>
+        </button>
+        {!canSubmit && status !== "saving" && (
+          <p className="mt-2 text-sm font-semibold text-ink">
+            {rating === 0 ? "Chybí hodnocení: vyber číslo 1 až 5." : "Počkej na ověření, že nejsi robot."}
+          </p>
+        )}
+        <p className="mt-2 text-sm text-ink-2">
+          Bez registrace: prohlížeč dostane anonymní účet. Jedno jídlo můžeš hodnotit jednou denně.
+        </p>
+      </div>
     </form>
   );
 }
